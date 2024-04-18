@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order</title>
+    <link rel="shortcut icon" type="img/png" href="img/turn.png" />
+    <link rel="Stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="form_submited.html" target="_blank">
+      <fieldset>
+        <legend>Pizza order</legend>
+        <label for="nume">Your name:</label>
+        <input
+          type="text"
+          name="nume"
+          minlength="3"
+          maxlength="10"
+          placeholder="Your name"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Your email:</label>
+        <input type="email" name="email" value="Add email" required />
+        <br /><br />
+        <label for="topping">Topping:</label>
+        <input type="radio" name="topping" value="Supreme" checked />Supreme
+        <input type="radio" name="topping" value="Vegetarian" />Vegetarian
+        <input type="radio" name="topping" value="Hawaian" />Hawaian
+        <br /><br />
+
+        <label for="sauce">Sauce</label>
+        <select name="sauce">
+          <option value="tomato">Tomato</option>
+          <option value="mayo">Mayo</option>
+          <option value="garlic">Garlic</option>
+        </select>
+        <br /><br />
+
+        <label for="extras">Extras:</label>
+        <input type="checkbox" name="cheese" value="Cheese" />Cheese
+        <input type="checkbox" name="onions" value="Onions" />Onions
+        <input type="checkbox" name="olives" value="Olives" />Olives
+        <br /><br />
+
+        <label for="delivery">Delivery instructions:</label><br />
+        <textarea name="delivery" rows="10" cols="50" required></textarea>
+        <br /><br />
+        <label for="numar">No.</label>
+        <input
+          type="number"
+          name="numar"
+          min="1"
+          max="7"
+          value="1"
+        /><br /><br />
+
+        <label for="delivery_day">Delivery day</label>
+        <input
+          type="date"
+          name="delivery_day"
+          min="2024-04-13"
+          value="2024-04-13"
+        />
+
+        <input type="submit" value="Send order" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
