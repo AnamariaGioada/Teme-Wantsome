@@ -1,0 +1,65 @@
+body{
+   background-color:lemonchiffon;
+}
+
+header h1[title="welcome"]{
+    background-color: darkmagenta;
+    color:lemonchiffon;
+    font-family: "Jersey 15", sans-serif;
+}
+
+a[href]{
+    color:brown;
+}
+
+h2:hover{
+    color:white;
+    background-color: lightcoral;
+}
+
+p:not(.hidden){
+    color:sandybrown;
+    font-weight:bold ;
+
+}
+
+li > a[href] {
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.sectiuni p {
+    font-style: italic;
+    font-size: medium;
+    color:royalblue
+}
+
+article p {
+    color:cornflowerblue;
+}
+
+.highlights~span {
+    font-weight: lighter;
+    color: rebeccapurple;
+}
+
+footer .hidden {
+    visibility: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style:lower-greek
+}
+
+#tools {
+    color: dimgray;
+    list-style:lower-latin
+}
+a:hover{
+    color: peru;
+    font-size: larger;
+}
