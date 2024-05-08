@@ -2,21 +2,24 @@ body{
       font-family: Arial, Helvetica, 'Lucida Grande', sans-serif;
       color:rgb(59 74 84)
 }
-h1, .subtitle{
-    font-weight: lighter;
+h1, h2{
+    font-weight: 100;
+    font-size: 15px;
     text-align: center;
 }
 .subtitle {
     color:gray;
+    margin-top: 5px;
+   margin-bottom: 25px;
 }
 
 .content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: baseline;
     width: 1200px;
     justify-content: space-evenly;
+    margin: 0 auto;
 
 }
 img{
@@ -34,17 +37,18 @@ img{
     text-align: center;
 }
 
- h3 {
-    font-weight: lighter;
+h3 {
+    font-weight: bolder;
+    font-size:15px;
 }
-h2,h3 
-{
-    font-size: smaller;
-}
-
-.text {
-    padding: 35px;
+p {
     padding-bottom: 15px;
+    font-size: 15px lighter;
+}
+.text{
+    padding:30px;
+    padding-top: 15px;
+    padding-bottom: 0;
 }
 button{
     border: 1px solid  rgb(195, 201, 210);
