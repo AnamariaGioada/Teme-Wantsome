@@ -1,0 +1,13 @@
+html,
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46 47 47);
+}
+
+div{
+    color:rgb(205 206 208);
+}
+
