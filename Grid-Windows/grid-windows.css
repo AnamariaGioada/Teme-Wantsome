@@ -1,13 +1,83 @@
 html,
 body {
     margin:0;
-    padding: 0;
+    padding-top: 10px;
     width: 100%;
     height: 100%;
     background-color: rgb(46 47 47);
 }
 
 div{
-    color:rgb(205 206 208);
+    color:rgb(253 253 253);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.windows{
+    padding-right: 10px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 50px 300px 500px;
+    height: 800px;
+}
+.start-bar{
+    height: 100%;
+    width: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
+.start-bar div {
+    height: 40px;
+}
+
+.hamburger {
+    margin-bottom: auto;
+}
+
+.all-apps{
+    margin-right: 30px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.vertical-apps-group .list .item {
+    display: grid;
+    grid-template-columns: 55px auto 10px;
+}
+
+.vertical-apps-group .list .name{
+    height: 55px;
+    line-height: 55px;
+    padding-left: 15px;
+}
+.vertical-apps-group .descriptor{
+    line-height: 55px;
+}
+
+.decoration {
+    font-size: 30px;
+    line-height: 55px;
+
+}
+.horizontal-apps-group .list {
+    display: grid;
+    grid-template-columns: repeat(3, 144px);
+    gap:5px;
+}
+
+.horizontal-apps-group .list .item{
+    height: 130px;
+}
+
+.horizontal-apps-group .descriptor {
+    height: 50px;
+    line-height: 50px;
+
+}
+.horizontal-apps-group img{
+    height: 130px;
+}
+
+.user {
+    transform: rotate(180);
+}
