@@ -4,7 +4,7 @@ body {
     padding-top: 10px;
     width: 100%;
     height: 100%;
-    background-color: rgb(46 47 47);
+    background-color: rgb(39 39 39);
 }
 
 div{
@@ -34,6 +34,8 @@ div{
 .hamburger {
     margin-bottom: auto;
 }
+
+
 
 .all-apps{
     margin-right: 30px;
