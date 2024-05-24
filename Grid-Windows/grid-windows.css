@@ -25,23 +25,28 @@ div{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    gap:25px;
+    align-items: center;
 }
 
 .start-bar div {
-    height: 40px;
+    height: 35px;
 }
 
 .hamburger {
     margin-bottom: auto;
 }
-
-
+.power {
+    padding-left: 5px;
+}
 
 .all-apps{
-    margin-right: 30px;
+    margin-left:30px;
     height: 100%;
     overflow-y: scroll;
+
 }
+
 .vertical-apps-group .list .item {
     display: grid;
     grid-template-columns: 55px auto 10px;
@@ -53,13 +58,16 @@ div{
     padding-left: 15px;
 }
 .vertical-apps-group .descriptor{
-    line-height: 55px;
+    line-height: 50px;
 }
 
 .decoration {
     font-size: 30px;
     line-height: 55px;
 
+}
+.horizontal-apps-group{
+    padding-left: 40px;
 }
 .horizontal-apps-group .list {
     display: grid;
@@ -80,6 +88,3 @@ div{
     height: 130px;
 }
 
-.user {
-    transform: rotate(180);
-}
