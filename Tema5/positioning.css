@@ -1,0 +1,42 @@
+div {
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgb(131, 95, 116);
+    text-align: center;
+    text-transform: uppercase;
+}
+.parent {
+    background-color:rgb(187, 201, 184);
+    border-width: 5px;
+    height: 280px;
+    width: 750px;
+    position: relative;
+}
+.child {
+    border-width: 3px;
+    height: 230px;
+    width: 300px;
+
+}
+
+.child1 {
+    background-color:rgb(81, 141, 138);
+    position:absolute;
+    top:0;
+}
+
+.child2 {
+    background-color:rgb(163, 145, 164);
+    position: absolute;
+    left: 230px;
+    bottom:0;
+    z-index: 1;
+}
+
+.child3 {
+    background-color:rgb(168, 169, 124);
+    position: absolute;
+    top:40px;
+    right: 20px;
+
+}
