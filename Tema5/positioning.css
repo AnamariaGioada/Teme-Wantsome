@@ -10,6 +10,7 @@ div {
     border-width: 5px;
     height: 280px;
     width: 750px;
+    position: relative;
 }
 .child {
     border-width: 3px;
