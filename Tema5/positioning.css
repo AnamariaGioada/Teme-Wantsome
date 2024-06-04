@@ -22,7 +22,7 @@ div {
 .child1 {
     background-color:rgb(81, 141, 138);
     position:absolute;
-    top:12px;
+    top:0;
 }
 
 .child2 {
