@@ -1,5 +1,6 @@
 function computeIncome(sentence) {
-    const modifiedSentence = sentence.replace(",", "");
+    const modifiedSentence = sentence.replaceAll(",", "");
+    console.log(modifiedSentence)
     const words = modifiedSentence.split(" ");
     nume = words[0];
     let valoare = 0;
@@ -28,5 +29,5 @@ function computeIncome(sentence) {
 };
 
 console.log(computeIncome("Ion castiga 5000 lei/luna din salariu, 1000 lei/an bonus si 1500 lei/luna din freelancing."));
-console.log(computeIncome("Andrei are un salariu de 1000 euro/luna, un bonus de 9000 lei/an si mai castiga suplimentar aproximativ 500 usd/luna din freelancing."));
+console.log(computeIncome("Andrei are un salariu de 1000 euro/luna, un bonus de 9000 lei/an, insa mai castiga suplimentar aproximativ 500 usd/luna din freelancing."));
 console.log(computeIncome("Georgiana are un salariu de 1500 usd/luna, un bonus de 2000 euro/an si mai castiga din actiuni aproximativ 3000 lei/luna din actiuni."));
