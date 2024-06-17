@@ -1,6 +1,5 @@
 function computeIncome(sentence) {
     const modifiedSentence = sentence.replaceAll(",", "");
-    console.log(modifiedSentence)
     const words = modifiedSentence.split(" ");
     nume = words[0];
     let valoare = 0;
@@ -25,7 +24,7 @@ function computeIncome(sentence) {
                 valoare = valoare + (parseInt(words[index - 1]) * 4.60);
         };
     });
-    return `Venitul anual al lui ${nume} este de ${valoare} lei`;
+    return `Venitul anual al lui ${nume} este de ${valoare} lei.`;
 };
 
 console.log(computeIncome("Ion castiga 5000 lei/luna din salariu, 1000 lei/an bonus si 1500 lei/luna din freelancing."));
