@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<head>
+<title>Chessboard</title>
+<style>
+   
+    #chessboard{
+        background-color: white;
+        margin:3px;
+        padding: 3px;
+        border: 1px solid rgb(205, 204, 204);
+        width:fit-content; 
+               
+    }
+</style>
+</head>
+<body>
+    <table id="chessboard">
+
+
+    </table>
+    <script>
+        const chessboard = document.getElementById('chessboard');
+       
+        for (let i = 0; i < 8; i++) {
+            let row = document.createElement("tr");
+        for (let j = 0; j < 8; j++) {
+            let cell = document.createElement("td");
+            row.appendChild(cell);
+
+            if ((i + j) % 2 === 0) {
+                cell.setAttribute("style", "width: 100px; height: 100px; background-color: black; border: 1px; border-style:solid; border-color:rgb(205, 204, 204);  ");
+        }
+            else {
+                cell.setAttribute("style", "width: 100px; height: 100px; background-color: white;border: 1px; border-style:solid; border-color:rgb(205, 204, 204); ");
+        }
+        row.appendChild(cell);
+        
+    }
+    chessboard.appendChild(row);
+}
+chessboard.style.borderSpacing="3px";
+document.body.appendChild(chessboard);
+
+
+    </script>
+</body>
+</html>
