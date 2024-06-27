@@ -14,6 +14,7 @@ body {
     height: 100%;
     background-image: url("https://static.vecteezy.com/system/resources/previews/038/985/779/non_2x/ai-generated-tranquil-scene-of-green-forest-in-summer-generated-by-ai-free-photo.jpg");
     background-size: cover;
+    position:relative
 }
 
 .darkness {
