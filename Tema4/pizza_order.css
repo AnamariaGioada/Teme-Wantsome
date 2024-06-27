@@ -1,0 +1,27 @@
+body{
+    background-color: lightsalmon;
+}
+fieldset {
+    background-color: salmon;
+    width: fit-content;
+
+}
+label {
+    color: skyblue;
+}
+input[type="text"] {
+    border-color: yellowgreen;
+    border-width: 3px;
+}
+
+input[type="email"] {
+    background-color:lightblue;
+}
+
+input[type="submit"] {
+    background-color: forestgreen;
+}
+
+input[type="reset"] {
+    background-color: aliceblue;
+}
