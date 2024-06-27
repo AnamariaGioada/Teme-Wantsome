@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    background-color: rgb(230 230 230);
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    width: 500px;
+
+}
+
+.top {
+    padding: 15px;
+}
+
+.first-line {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr 1fr;
+    color: rgb(141 141 141);
+    font-size: 20px;
+    align-items: baseline;
+}
+
+.title {
+    background-color: rgb(230 230 230);
+    border: none;
+    color: rgb(141 141 141);
+    font-size: 20px;
+}
+
+
+.second-line {
+    display: grid;
+    grid-template-columns: 1fr 4fr 7fr;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.history{
+    text-align: right;
+    font-size: larger;
+    padding-right: 20px;
+}
+.scientific {
+    text-align: center;
+}
+
+.results {
+    border: none;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+
+}
+
+.results input {
+    border: none;
+    background-color: rgb(230 230 230);
+    font-size: 70px;
+    height: 100px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.transform {
+    display: grid;
+    grid-template-columns:40px 40px;
+    gap: 35px;
+    margin-bottom: 15px;
+    margin-left: 22px;
+    
+}
+
+.transform div {
+    text-align: center;
+}
+
+.transform button {
+    padding: 0;
+    background: rgb(230 230 230);
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.memory {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.memory div {
+    text-align: center;
+}
+
+.memory sup {
+    line-height: 0;
+}
+
+.memory button {
+    padding: 0;
+    background: rgb(230 230 230);
+    border: none;
+}
+button .middle :hover{
+    background-color:steelblue;
+}
+.disabled {
+    color: rgb(183 183 183)
+}
+
+.functions {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin-bottom: 15px;
+}
+
+.functions button {
+    padding: 0;
+    background: rgb(230 230 230);
+    border: none;
+    font-size: large;
+}
+
+.middle button:hover{
+    background-color:steelblue;
+    color: rgb(206,255,255);
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+}
+
+.buttons button {
+    height: 65px;
+    border: 1px;
+    font-size: large;
+
+}
+
+.operator {
+    background-color: rgb(218, 219, 221);
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+.equal {
+    background-color: rgb(138 186 225);
+}
+
+.buttons :hover {
+    background-color: rgb(121, 136, 148);
+    font-size: x-large;
+    color: lightgray;
+}
