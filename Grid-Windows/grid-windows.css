@@ -46,7 +46,11 @@ div{
     overflow-y: scroll;
 
 }
-
+    .hide-overflow {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 .vertical-apps-group .list .item {
     display: grid;
     grid-template-columns: 55px auto 10px;
