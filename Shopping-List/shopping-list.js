@@ -9,10 +9,6 @@ addForm.addEventListener("submit", function (event) {
     alert("Please add item");
     return;
   }
-  if (ul.children.length > 9) {
-    submitButton.disabled = true;
-    return;
-  }
 
   let list = document.createElement("li");
 
@@ -46,6 +42,7 @@ addForm.addEventListener("submit", function (event) {
   deleteButton.addEventListener("click", function (e) {
     ul.removeChild(list);
     submitButton.disabled = false;
+    txt.disabled = false;
   });
   list.appendChild(deleteButton);
 
@@ -53,4 +50,9 @@ addForm.addEventListener("submit", function (event) {
 
   txt.value = "";
   txt.focus();
+  if (ul.children.length > 9) {
+    submitButton.disabled = true;
+    txt.disabled = true;
+    return;
+  }
 });
