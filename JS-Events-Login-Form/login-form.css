@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+/* Left Side */
+#leftSide {
+    width: 50%;
+    height: 100%;
+}
+#hero-image {
+    height: 100%;
+    background-image: url("https://www.trouvaillewatches.com/cdn/shop/products/Index_auto_B-2.jpg?v=1511065040");
+    background-size: cover;
+    position: relative
+}
+
+.darkness {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 36, 45, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.topContainer{
+    height: 25%;
+}
+
+.bottomContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+} 
+
+.leftSideTitle{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: light;
+ }
+.paragraph {
+    color: #8c96a7;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:"Rubik", sans-serif;
+    text-align: center;
+    width: 55%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+ .submitForSellers{
+    background-color: unset;
+    color: #8c96a7;
+    width: 30%;
+    font-family: "Rubik", sans-serif;;
+    font-weight: bold;
+    cursor:pointer;
+    border: solid #8c96a7 1px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+/* Right Side */
+#rightSide {
+    width: 50%;
+    height: 100%;
+    background-color: #f7f9fb;
+    top: 30%;
+}
+
+#rightSide .topContainer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.stopwatchImage{
+    height: 100px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.rightSideTitle{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: light;
+
+}
+form{
+    width: 50%;
+}
+
+label{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: solid #b6c3d3 1px;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 10px;
+
+}
+
+.emailContainer{
+    margin-top: 40px;
+}
+
+.passwordContainer {
+    margin-top: 15px;
+}
+#passwordField{
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    cursor: pointer;
+    color: #b6c3d3;
+}
+
+.validationMessage{
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+}
+.instructions {
+    font-size: smaller;
+    color:#b6c3d3;
+    width: 100%;
+    margin-top: 5px;
+    font-family: "Rubik", sans-serif;
+}
+
+button{
+    background-color: #7bb873;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: "Rubik", sans-serif;
+}
+
+a{
+    display: block;
+    margin-top: 15px;
+    color: #7bb873;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
