@@ -30,14 +30,16 @@ body {
     left: 0;
 }
 .topContainer{
-    height: 30%;}
+    height: 25%;
+}
+
 .bottomContainer {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 70%;
+    height: 75%;
 } 
 
 .leftSideTitle{
