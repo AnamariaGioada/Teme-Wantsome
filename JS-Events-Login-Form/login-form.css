@@ -113,6 +113,7 @@ input{
     padding:5px;
     box-sizing: border-box;
     font-size: 14px;
+    font-family: "Rubik", sans-serif;
     margin-top: 10px;
 
 }
@@ -139,12 +140,14 @@ input{
 .validationMessage{
     margin-top: 8px;
     font-size: 14px;
+    font-family: "Rubik", sans-serif;
 }
 .instructions {
     font-size: smaller;
     color:#b6c3d3;
     width: 100%;
     margin-top: 5px;
+    font-family: "Rubik", sans-serif;
 }
 
 button{
@@ -155,11 +158,13 @@ button{
     padding: 10px;
     font-weight: bold;
     margin-top: 40px;
+    font-family: "Rubik", sans-serif;
 }
 
 a{
     display: block;
     margin-top: 15px;
     color: #7bb873;
+    font-family: "Rubik", sans-serif;
     text-align: center;
 }
