@@ -6,8 +6,8 @@ import { useNavigate } from "react-router";
 
 // "Database"
 const USERS = [
-  { username: "Wantsome", password: "wantsome123", id: 1 },
-  { username: "React", password: "react123", id: 2 },
+  { username: "wantsome@wantsome.com", password: "wantsome123", id: 1 },
+  { username: "react@react.com", password: "react123", id: 2 },
 ];
 
 interface Error {
@@ -36,11 +36,12 @@ function isValidUser({ username, password }: FormData) {
 
 function Login() {
   const navigate = useNavigate();
+  const email = localStorage.getItem("email");
   // const [username, setUsername] = useState("");
   // const [password, setPassword] = useState("");
   const [countries, setCountries] = useState<Country>({});
   const [formData, setFormData] = useState<FormData>({
-    username: "",
+    username: email ? email : "",
     password: "",
     country: "",
     city: "",
