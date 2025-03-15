@@ -129,7 +129,12 @@ function Signup() {
 
     const isValid = validateValues();
     if (isValid) {
-      localStorage.setItem("email", formData.email);
+      const users = JSON.parse(localStorage.getItem("users"));
+      if(!users) {
+          localStorage.setItem("users", JSON.stringify([{ email, password }]);
+      } else {
+          users.push({ email, password });
+      }
       navigate("/login");
     }
   };
