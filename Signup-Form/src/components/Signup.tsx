@@ -165,9 +165,9 @@ function Signup() {
             onChange={onChange}
             value={formData.lastName}
           />
-          {errors.lastName.length !== 0 ? (
+          {errors.lastName.length !== 0 && (
             <div className="error">{errors.lastName}</div>
-          ) : null}
+          )}
         </div>
 
         <div className="signup-field">
