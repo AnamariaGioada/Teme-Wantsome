@@ -1,0 +1,16 @@
+form {
+  width: 201px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field input {
+  width: 100%;
+}
+
+.error {
+  padding: 10px;
+  color: red;
+}

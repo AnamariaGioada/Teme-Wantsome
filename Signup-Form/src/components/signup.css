@@ -1,0 +1,23 @@
+#signupForm{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+}
+
+input {
+    width:260px;
+}
+label{ font-weight: bold;}
+select {
+    width: 260px;
+}
+.submit{
+    background-color: rgb(111, 208, 111);
+    margin: 16px;
+    color:white;
+    font-weight: bold;
+    border: none;
+}
+.submit:hover{
+    background-color: green;
+}
